@@ -1,0 +1,71 @@
+body
+{
+	padding:0;
+	margin:0;
+	background:pink;
+}
+.container
+{
+	width:900px;
+	margin:0 auto;
+	background:white;
+}
+#head
+{
+	margin:auto;
+	width:900px;
+	height:127px;
+	border-bottom:4px solid brown;
+}
+#sidebar
+{
+	width:195px;
+	height:600px;
+	background:gray;
+	float:left;
+}
+#content
+{
+	width:700px;
+	height:600px;
+	background:white;
+	float:right;
+	margin-top:0px;
+	
+}
+
+#menu
+{
+	line-height:30px;
+	padding:0px;
+}
+#menu li
+{
+	list-style:none;
+	display:block;
+	margin-left:20px;
+	padding:10px;
+}
+#menu a 
+{
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	margin:10px;
+}
+#menu a:hover
+{
+	color:orange;
+}
+#sidebar h2
+{
+	text-decoration:underline;
+	margin-left:5px;
+}
+#foot
+{
+	width:900px;
+	height:50px;
+	background:black;
+	clear:both;
+}
